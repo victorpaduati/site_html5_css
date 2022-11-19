@@ -1,0 +1,100 @@
+body {
+	background: url (../img/background.jpg);
+	color: #868686;
+	font-family: "Open Sans", Helvetica, sans-serif, arial;
+	font-size: 1.125em /* de 16px a 18px */
+	font-weight: 300;
+	line-height: 1.2222222222em; /* 22px a 18px*/
+	text-align: left;
+	text-shadow: 1px 1px 0px #FFFFFF;
+}
+.centro {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 90%;
+}
+/* adicionar um espaço vazio antes e depois dos elementos evitando que os floats aglomeram */
+.clearfixbody: before, .clearfixbody:after {
+	content: " ";
+	display: table;
+}
+
+.clearfixbody: after {
+	clear: both;
+}
+
+.clearfixbody {
+	*room: 1;
+}
+
+img, picture, video, embed {
+		max-width: 100%;
+}
+
+h1, h2 {
+	color: #0ac3fe;
+	font-size: 3.3333333333em; /* 60px a 18px */
+	font-weight: 800;
+	letter-spacing: -0.05em; /* -3´x */ 
+	line-height: 1em;
+}
+
+.h3 {
+	font-size: 1.77777777778em;
+	font-weight: 300;
+	letter-spacing: -0.0625em:
+	line-height: 1.1875em;
+}
+
+.p {
+	font-weight: 300;
+	letter-spacing: -0.055555555556em;
+}
+
+a, a:link, a:visited {
+	color: #1399da;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fe5em41;
+	text-decoration: undeline;
+	text-shadow: nome;
+}
+
+.ativo {
+	
+}
+
+.chamada {
+	
+}]
+
+.meio {
+	
+}
+
+.desktop {
+	
+}
+
+.botao {
+	
+}
+
+.tablet {
+	
+}
+
+.mobile {
+	
+}
+
+.coptleft {
+	
+}
+
+.desenvolvedor {
+	
+}
