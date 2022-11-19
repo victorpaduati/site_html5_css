@@ -37,6 +37,7 @@ h1, h2 {
 	font-weight: 800;
 	letter-spacing: -0.05em; /* -3´x */ 
 	line-height: 1em;
+	margin-top: 50px
 }
 
 .h3 {
@@ -63,13 +64,51 @@ a:hover {
 	text-shadow: nome;
 }
 
-.ativo {
-	
+header h1 a {
+	background: url(../img/logo-criar-site-responsivo.png) no-repeat;
+	display: block;
+	height: 139px;
+	float: left;
+	width: 25%;
+	text-indent: -9999;
 }
+
+nav {
+	float: rigth;
+	margin-top: 78px;
+	text-align: right;
+	width: 75%;
+}
+
+	nav ul {
+		list-style-type: none;
+	}
+
+	nav li {
+		display: inline;
+	}
+	
+	nav ul li a {
+		margin-right: 2.5%;
+	}
+	
+	nav a:link, nav a:visited {
+		color: #999; 
+		font-size: 1.2222222222em;
+		font-weight: 300;
+		letter-spacing: -0.0909090909em;
+		line-height: 1.10101010102em;
+		display: inline-block;
+		margin-top: 50px
+	}
+	
+	nav a:hover, nav a:link{
+		color: #0ac3fe;
+	}
 
 .chamada {
 	
-}]
+}
 
 .meio {
 	
