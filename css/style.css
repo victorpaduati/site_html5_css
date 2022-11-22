@@ -22,7 +22,7 @@ body{
 }
 .centro{
 	margin: 0 auto;
-	max-width:1200px; /*largura maxima do layout*/
+	max-width:1300px; /*largura maxima do layout*/
 	width: 90%; /*ajuste do layout a  tela*/
 }
 /*.clearfixbody usado para adicionar um espaço vazio antes e depois dos elementos
@@ -84,7 +84,7 @@ logotipo
 */
 	header h1 a{
 		background:url(../img/logo-criar-site-responsivo.png) no-repeat ; 
-		display:block; 
+		display:block;
 		float:left; 
 		height:139px;
 		text-indent:-9999; 
@@ -92,7 +92,7 @@ logotipo
 	}
 /*
 =========================
-nav - menu de navegaÃ§Ã£o
+nav - menu de navegação
 =========================
 */
 nav{
@@ -141,80 +141,70 @@ nav{
 	}
 
 .meio{
-	background-color: #0ac3fe;
+	background-color:#0ac3fe;
 	height: 437px;
 	padding: 2.5%;
 	width: 95%;
 }
 
-.desktop, .tablet, .mobile {
+.desktop, .tablet, .mobile{
 	float: left;
 	height: 350px;
 	position: relative;
-	text-align: center;
+	text-align:center;
 	width: 31.57894736842105%;
 }
-
-.desktop, .tablet {
+.desktop, .tablet{
 	margin-right: 2.631578947368421%;
 }
-
 .desktop{
-	background-color: #fe9481;
+	background-color:#fe9481;
 }
-
 .tablet{
-	background-color: #fcda92;
+	background-color:#fcda92;
 }
 
 .mobile{
-	background-color: #9c8cb9;
-	margin-right: 0px;
+	background-color:#9c8cb9;
+	margin-right:0px;
 }
-
-.meio, .desktop figue, .meio, .tablet figure, .meio, .mobile figure {
+.meio .desktop figure, .meio .tablet figure, .meio .mobile figure{
 	margin: 15px auto 0px auto;
 	width: 69.44444444444444%;
 }
-
-.meio h3 {
+.meio h3{
 	color: #ffffff;
 	font-size: 1.77777777778em;
 	font-weight: 300;
 	letter-spacing: -0.0625em;
 	margin-bottom: 30px;
-	text-shadow: none;
+	text-shadow:none;
 }
-
 .meio p {
-	background-color: #ffffff;
-	float: left;
-	height: 200px;
+	background-color:#ffffff;
+	float:left;
+	height:200px;
 	padding: 1.9444444444444445%;
 	position: absolute;
 	max-width: 100%;
-	text-align: justify;
+	text-align:justify;
 	top: 210px;
-
+}
 span.botao a{
-	color: #ffffff:
+	color:#ffffff;
 	padding: 2px 3.333333333333333%;
 }
-
-.desktop span.botao a {
+.desktop span.botao a{
 	background-color: #fe9481;
 }
-
-.tablet span.botao a {
+.tablet span.botao a{
 	background-color: #fcda92;
 }
-
-.mobile span.botao a {
+.mobile span.botao a{
 	background-color: #9c8cb9;
 }
-
-span.botao {
-	font-size: 1.1111111111em;
+span.botao{
+	font-size: 1.11111111111em;
 	font-weight: 400;
 	letter-spacing: -0.1em;
 	height: 27px;
@@ -222,13 +212,95 @@ span.botao {
 	position: absolute;
 	right: 1px;
 	text-align: center;
-	width: 33.33333333333333%;
+	width: 33.333333333333333%;
+	text-shadow: none;
 }
-
+footer{
+	clear: both;
+	height: 50px;
+	padding: 10px 0;
+	width: 100%;
+}
 .copyleft{
-
+	float: left;
+	margin-left: 2.5%;
+}
+.desenvolvedor{
+	float:right
+}
+.desenvolvedor figure{
+	width:100%;
 }
 
-.desenvolvedor{
-	
+@media screen and (max-width: 999px){
+	h2, a , a:link, a:visited{
+		color: #228b22;
+	}
+	a:hover{
+		color:f9ad0f;
+	}
+	header{
+		height: 195px;
+		text-align: center;
+	}
+	header h1 a {
+		background-position: 57% 0;
+		height: 126px;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	nav{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	nav a.ativo:link, nav a:hover{
+		color: #228b22;
+	}
+	.chamada{
+		height: 200px;
+	}
+	h2{
+		font-size: 2.222222222em;
+	}
+	.chamada h3{
+		font-size: 1.111111111em;
+	}
+	.meio{
+		background-color:#228b22;
+		height:400px;
+		padding: 3.90625%;
+		width: 92.1875%;
+	}
+	.desktop, .tablet, .mobile{
+		width: 31.25%;
+		height:350px;
+	}
+	.meio .desktop figure, .meio .tablet figure, .meio .mobile figure{
+		width: 62.25%
+	}
+	.meio img{
+		height:80px
+	}
+	.meio h3{
+		font-size: 1.6666666667em;
+	}
+	.meio p{
+		font-size: 0.7777777778em;
+		height: 160px;
+		line-height: 1.1428571428em;
+		padding: 2.91666666667%;
+		top: 215px;
+	}
+	span.botao {
+		font-size: 1.11111111111em;
+		letter-spacing: -0.1em;
+		height:22px;
+		margin-top: 25px;
+		position: absolute;
+		width: 50%;
+	}
+	span.botao a{
+		padding: 2px 3.33333333333333%;
+	}
 }
